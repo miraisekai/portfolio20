@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Page from './components/Page';
 function App() {
-  const [pages] = useState([
+  const [views] = useState([
     {
       name: 'about me'
     },
@@ -26,15 +26,17 @@ function App() {
   ]);
 
   const [currentPage, setCurrentPage] = 
-  useState(pages[0]);
+  useState(views[0]);
 
   return (
     <div className="App">
     
       <Header>
-        <Nav>
-          
-        </Nav>
+        <Nav
+         views={views}
+         setCurrentPage={setCurrentPage}
+         currentPage={currentPage}
+        />
       </Header>
       
       <Footer/>
