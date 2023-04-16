@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 // import from react
 import { useState } from 'react';
@@ -8,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Page from './components/Page';
+
 function App() {
   const [views] = useState([
     {
@@ -25,8 +25,7 @@ function App() {
 
   ]);
 
-  const [currentPage, setCurrentPage] = 
-  useState(views[0]);
+  const [currentPage, setCurrentPage] = useState(views[0]);
 
   return (
     <div className="App">
@@ -38,6 +37,9 @@ function App() {
          currentPage={currentPage}
         />
       </Header>
+      <main>
+        <Page currentPage={currentPage} />
+      </main>
       
       <Footer/>
      
