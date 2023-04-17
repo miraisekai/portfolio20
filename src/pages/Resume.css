@@ -1,0 +1,55 @@
+/* Resume.css */
+
+.resume {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .resume h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .resume h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+  }
+  
+  .resume h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .resume p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .resume ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resume li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .resume a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .resume a:hover {
+    text-decoration: underline;
+  }
+  
+  .resume hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2rem 0;
+  }
+  

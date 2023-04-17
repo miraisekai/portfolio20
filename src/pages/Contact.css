@@ -1,0 +1,38 @@
+/* Contact.css */
+
+.contact {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact li {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
